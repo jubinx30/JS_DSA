@@ -1,1 +1,11 @@
 
+function rev(arr){
+    let reversedArray = [];
+    let len = arr.length;
+    for(i=0;i<arr.length;i++){
+           reversedArray[len-(i+1)]=arr[i];
+    }
+    console.log(reversedArray)
+}
+
+rev([2,31,3,5,"k",8])
